@@ -6,7 +6,7 @@
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <description>Патч для Customize Weapon: во вкладке «Панель оружия» у экипированной пешки можно ставить модули не только из инвентаря, но и с доступных складов/карты. Пешка сама подносит недостающие модули (CWF_ModifyWeaponHaul). Не добавляет контент и не меняет оружие на земле.</description>
+  <description>Патч для Customize Weapon: во вкладке «Панель оружия» у экипированной пешки можно ставить модули не только из инвентаря, но и с доступных складов/карты; занятый слот — снять или заменить; тултипы эффектов. Пешка сама подносит недостающие модули. Не добавляет контент и не меняет оружие на земле. Custom Weapons Expanded не требуется (если включён — грузить наш патч после него).</description>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>
@@ -22,5 +22,6 @@
   <loadAfter>
     <li>brrainz.harmony</li>
     <li>Vortex.CustomizeWeapon</li>
+    <li>Feliperathal.CustomizeWeaponExpanded</li>
   </loadAfter>
 </ModMetaData>

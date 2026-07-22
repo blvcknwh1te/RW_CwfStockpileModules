@@ -9,6 +9,6 @@ public static class Bootstrap
 	static Bootstrap()
 	{
 		new Harmony("local.cwf.stockpilemodules").PatchAll();
-		Log.Message("[CWF Stockpile Modules] active: stockpile source transpiler + SpecDatabase trait-stat apply.");
+		Log.Message("[CWF Stockpile Modules] active: stockpile UI/job + slot replace menu + module tooltips.");
 	}
 }

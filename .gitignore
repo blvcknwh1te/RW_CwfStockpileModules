@@ -1,0 +1,16 @@
+# Build
+Source/obj/
+Source/bin/
+*.user
+*.suo
+.vs/
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+
+# Local tooling
+*.log

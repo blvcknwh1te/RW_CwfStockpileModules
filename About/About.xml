@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>CWF Stockpile Modules</name>
+  <author>local</author>
+  <packageId>local.cwf.stockpilemodules</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Патч для Customize Weapon: во вкладке «Панель оружия» у экипированной пешки можно ставить модули не только из инвентаря, но и с доступных складов/карты. Пешка сама подносит недостающие модули (CWF_ModifyWeaponHaul). Не добавляет контент и не меняет оружие на земле.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Vortex.CustomizeWeapon</packageId>
+      <displayName>Customize Weapon</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3550585103</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Vortex.CustomizeWeapon</li>
+  </loadAfter>
+</ModMetaData>
